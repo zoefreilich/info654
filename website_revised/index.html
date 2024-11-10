@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postcard</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        img {
+            width: 65%;
+            padding: 20px;
+        }
+
+        a:link {color: #0a0000}
+        a:visited {color: #000000;}
+        a:hover {color: #000000;}
+        a:active {color: #000000;}
+        
+        p {
+            font-size: 0.75em;
+        }
+
+        li {
+            list-style-type: disc;
+
+        }
+
+        .dropdown {
+            width: 100%;
+        }
+
+        .dropdown-content {
+            display: none;
+            background-color: #b93422;
+            opacity: 80%;
+            color: #000000;
+            width: 50%;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+            font-size: 0.75em;
+            overflow: auto;
+            position:absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        table,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="border">
+        <h2>Postcard</h2>
+        <div class="dropdown">
+        <h4>Poems by Monique Soria<a href="https://www.fotodemic.org/diaries/monique-soria">[see more of Monique's
+            work here]</a></h4>
+            <div class="dropdown-content">
+                Monique Soria’s poems have been published in:
+                <ul>
+                <li><i>This Piece of Earth: Images and Words from Tumamoc Hill</i></li>
+                <li><i>Journal of the Southwest Volume 57 Summer-Autumn 2015</i></li>
+                <li><i>Spiral Orb</i>
+                    <ul>
+                    <li><i>Five: A Poetic Inventory of Saguaro National Park</i>(Spring 2012)</li>
+                    <li><i>Twelve</i>(Fall 2016)</li>
+                    </ul>
+                </li>
+                </ul>
+                She was one of 20 poets whose haikus were in Tucson’s Old Pueblo Poems public art installation, <i>Haiku
+                Hike</i>, in 2020 (inaugural) and 2022. Monique was born in Cleveland, Ohio, where her father came from Bolivia to
+                study and her mother’s family came from Belgium after World War II. Monique lives near Tucson, Arizona. She is Zoe Freilich's
+                aunt.
+            </div>
+        </div>
+        </div>
+
+    <div class="center">
+        <img src="./images/IMG_5549.jpg" alt="sunset">
+    </div>
+
+    <table class="center">
+        <tr>
+            <td><a href="metamorphosis.html">Metamorphosis</a></td>
+            <td><a href="postcard.html">Postcard</a></td>
+            <td><a href="desertmoon.html">Desert Moon</a></td>
+        </tr>
+    </table>
+
+    <footer id="footer">
+        &copy; photographs by Zoe Freilich, 2024
+    </footer>
+</body>
